@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MytestDemo'
+  s.name             = 'ZCQFramework'
   s.version          = '1.0.0'
   s.summary          = 'MyFramework for zcq'
 
