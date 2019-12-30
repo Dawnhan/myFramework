@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ZCQQQQFramework'
+  s.name             = 'ZCQFramework'
   s.version          = '1.0.0'
   s.summary          = 'MyFramework for zcq'
 
@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'MytestDemo/MytestDemo/Classes/*.{h,m}'
+  s.source_files = 'ZCQFramework/*.{h,m}'
   
   # s.resource_bundles = {
   #   'MytestDemo' => ['MytestDemo/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
